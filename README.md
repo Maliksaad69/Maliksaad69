@@ -22,7 +22,7 @@ I work at the intersection of **machine learning**, **data engineering**, and **
 
 #### **DevOps Instructor — IT TechFusion Solutions** *(Multan)*
 **May 2026 – Present**
-- Teaching a beginner-level DevOps course covering Linux, Git/GitHub, cloud computing fundamentals, web technologies, databases, and deployment to remote Oracle servers via GitHub.
+- Teaching a DevOps course covering Linux, Git/GitHub, cloud computing fundamentals, web technologies, databases, and deployment to remote Oracle servers via GitHub.
 
 ---
 
