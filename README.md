@@ -121,18 +121,6 @@ I work at the intersection of **machine learning**, **data engineering**, and **
 
 ---
 
-### **GitHub Contribution Graph**
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation" />
-</p>
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=Maliksaad231224&style=for-the-badge&color=blue" alt="Profile Views" />
-</p>
-
----
-
 <p align="center">
 <i>"Data is not just numbers; it's insight waiting to be uncovered."</i>
 <br>Made by <b>Malik Saad Ahmed</b>
