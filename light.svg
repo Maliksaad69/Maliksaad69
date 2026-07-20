@@ -1,0 +1,528 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610">
+  <defs>
+    <!-- Glassmorphism filters -->
+    <filter id="glass" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.3 0" />
+    </filter>
+    <filter id="glow-cyan">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-purple">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="soft-glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="particle-glow">
+      <feGaussianBlur stdDeviation="2" />
+    </filter>
+    <filter id="drop-shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="rgba(15,23,42,0.04)" />
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="rgba(15,23,42,0.06)" />
+    </filter>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="4" stitchTiles="stitch" />
+      <feColorMatrix type="saturate" values="0" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.015" />
+      </feComponentTransfer>
+    </filter>
+    <filter id="blur-bg" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="50" />
+    </filter>
+    <filter id="blur-mid" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" />
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="border-shimmer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(37,99,235,0)" />
+      <stop offset="30%" stop-color="rgba(37,99,235,0.2)" />
+      <stop offset="50%" stop-color="rgba(6,182,212,0.3)" />
+      <stop offset="70%" stop-color="rgba(16,185,129,0.2)" />
+      <stop offset="100%" stop-color="rgba(37,99,235,0)" />
+      <animate attributeName="x1" values="0;1;0" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="0;1;0" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="accent-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="50%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="ascii-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563EB">
+        <animate attributeName="stop-color" values="#2563EB;#06B6D4;#10B981;#2563EB" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4;#10B981;#2563EB;#06B6D4" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#2563EB;#06B6D4;#10B981" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="0;1;0" dur="5s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="social-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="pill-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(37,99,235,0.08)" />
+      <stop offset="100%" stop-color="rgba(6,182,212,0.08)" />
+    </linearGradient>
+    <linearGradient id="pill-border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(37,99,235,0.2)" />
+      <stop offset="100%" stop-color="rgba(6,182,212,0.2)" />
+    </linearGradient>
+    <linearGradient id="typing-cursor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+    <radialGradient id="bg-glow-1" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="rgba(37,99,235,0.06)" />
+      <stop offset="100%" stop-color="rgba(37,99,235,0)" />
+    </radialGradient>
+    <radialGradient id="bg-glow-2" cx="70%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="rgba(6,182,212,0.04)" />
+      <stop offset="100%" stop-color="rgba(6,182,212,0)" />
+    </radialGradient>
+    <radialGradient id="bg-glow-3" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="rgba(16,185,129,0.03)" />
+      <stop offset="100%" stop-color="rgba(16,185,129,0)" />
+    </radialGradient>
+    <radialGradient id="glass-glow" cx="80%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.5)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </radialGradient>
+
+    <!-- Clip Paths -->
+    <clipPath id="canvas-clip">
+      <rect x="0" y="0" width="1180" height="610" rx="20" />
+    </clipPath>
+    <clipPath id="panel-clip">
+      <rect x="30" y="30" width="1120" height="550" rx="16" />
+    </clipPath>
+    <clipPath id="left-clip">
+      <rect x="45" y="45" width="410" height="520" rx="12" />
+    </clipPath>
+    <clipPath id="right-clip">
+      <rect x="470" y="45" width="665" height="520" rx="12" />
+    </clipPath>
+
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="4" y2="0" stroke="rgba(37,99,235,0.02)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Canvas background -->
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="#FFFFFF" filter="url(#drop-shadow)" />
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="url(#bg-glow-1)" />
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="url(#bg-glow-2)" />
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="url(#bg-glow-3)" />
+
+  <!-- Floating orbs -->
+  <ellipse cx="200" cy="150" rx="120" ry="120" fill="rgba(37,99,235,0.03)" filter="url(#blur-bg)">
+    <animate attributeName="cy" values="150;170;150" dur="10s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse cx="900" cy="450" rx="100" ry="100" fill="rgba(6,182,212,0.02)" filter="url(#blur-bg)">
+    <animate attributeName="cy" values="450;430;450" dur="12s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse cx="600" cy="200" rx="80" ry="80" fill="rgba(16,185,129,0.02)" filter="url(#blur-bg)">
+    <animate attributeName="cx" values="600;620;600" dur="8s" repeatCount="indefinite" />
+  </ellipse>
+
+  <!-- Outer border -->
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="none" stroke="url(#border-shimmer)" stroke-width="1" />
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="none" stroke="rgba(15,23,42,0.04)" stroke-width="0.5" />
+
+  <!-- ============ MAIN PANEL ============ -->
+  <rect x="30" y="30" width="1120" height="550" rx="16" fill="rgba(248,250,252,0.85)" />
+  <rect x="30" y="30" width="1120" height="550" rx="16" fill="url(#glass-glow)" />
+  <rect x="30" y="30" width="1120" height="550" rx="16" fill="none" stroke="rgba(15,23,42,0.06)" stroke-width="0.8" />
+
+  <!-- Glass reflection line -->
+  <path d="M30 30 Q600 20 1150 30" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="0.5">
+    <animate attributeName="opacity" values="0;0.6;0" dur="4s" repeatCount="indefinite" />
+  </path>
+
+  <!-- ============ LEFT PANEL ============ -->
+  <rect x="45" y="45" width="410" height="520" rx="12" fill="rgba(248,250,252,0.7)" />
+  <rect x="45" y="45" width="410" height="520" rx="12" fill="none" stroke="rgba(15,23,42,0.04)" stroke-width="0.5" />
+
+  <!-- ASCII ART PORTRAIT -->
+  <g font-family="'Fira Code','Cascadia Code','JetBrains Mono',monospace" font-size="13" font-weight="400" fill="url(#ascii-gradient)" filter="url(#soft-glow)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="6s" repeatCount="indefinite" />
+      <text x="80" y="100" opacity="0">
+        &#160;&#160;&#160;&#160;▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+        <animate attributeName="opacity" values="0;1" begin="0s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="118" opacity="0">
+        &#160;&#160;▄█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▄
+        <animate attributeName="opacity" values="0;1" begin="0.3s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="136" opacity="0">
+        &#160;█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="0.6s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="154" opacity="0">
+        █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="0.9s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="172" opacity="0">
+        █▓▓▓▓░▒▓▓▓▓▓▓▓▓▓▓▓▓▒░▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="1.2s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="190" opacity="0">
+        █▓▓▓▓▓░▒▓▓▓▓▓▓▓▓▓▓▒░▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="208" opacity="0">
+        █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="1.8s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="226" opacity="0">
+        █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="2.1s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="244" opacity="0">
+        █▓▓▓▓▓▓▓▓▓▓██████▓▓▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="2.4s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="262" opacity="0">
+        █▓▓▓▓▓▓▓▓██▓▓▓▓▓▓██▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="2.7s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="280" opacity="0">
+        █▓▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▓▓█▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="3s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="298" opacity="0">
+        █▓▓▓▓▓▓██▓▓▓▓▓▓▓▓▓▓▓█▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="3.3s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="316" opacity="0">
+        █▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="3.6s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="334" opacity="0">
+        █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="3.9s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="352" opacity="0">
+        █▓▓▓▓▓▓▓▓▓▓▓▓░░░▓▓▓▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="4.2s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="370" opacity="0">
+        █▓▓▓▓▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="4.5s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="388" opacity="0">
+        █▓▓▓▓▓▓▓▓▓░░░░░░░░░▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="4.8s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="406" opacity="0">
+        █▓▓▓▓▓▓▓▓▓░░░░░░░░░▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="5.1s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="424" opacity="0">
+        █▓▓▓▓▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="5.4s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="442" opacity="0">
+        &#160;█▓▓▓▓▓▓▓▓▓▓▓░░░▓▓▓▓▓▓▓▓▓█
+        <animate attributeName="opacity" values="0;1" begin="5.7s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="460" opacity="0">
+        &#160;&#160;▀█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▀
+        <animate attributeName="opacity" values="0;1" begin="6s" dur="0.3s" fill="freeze" />
+      </text>
+      <text x="80" y="478" opacity="0">
+        &#160;&#160;&#160;&#160;▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+        <animate attributeName="opacity" values="0;1" begin="6.3s" dur="0.3s" fill="freeze" />
+      </text>
+    </g>
+  </g>
+
+  <!-- ASCII label -->
+  <text x="140" y="500" font-family="'Fira Code','Cascadia Code','JetBrains Mono',monospace" font-size="8" fill="rgba(71,85,105,0.3)" text-anchor="middle" opacity="0">
+    &lt;terminal /&gt;
+    <animate attributeName="opacity" values="0;0.3" begin="7s" dur="1s" fill="freeze" />
+  </text>
+
+  <!-- Scanline overlay on left panel -->
+  <rect x="45" y="45" width="410" height="520" rx="12" fill="url(#scanlines)" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" begin="0s" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- ============ RIGHT PANEL ============ -->
+  <rect x="470" y="45" width="665" height="520" rx="12" fill="rgba(248,250,252,0.6)" />
+  <rect x="470" y="45" width="665" height="520" rx="12" fill="none" stroke="rgba(15,23,42,0.04)" stroke-width="0.5" />
+
+  <!-- Terminal window header dots -->
+  <circle cx="494" cy="70" r="5" fill="#EF4444" opacity="0.7" />
+  <circle cx="514" cy="70" r="5" fill="#F59E0B" opacity="0.7" />
+  <circle cx="534" cy="70" r="5" fill="#10B981" opacity="0.7" />
+  <text x="560" y="75" font-family="'Fira Code','Cascadia Code','JetBrains Mono',monospace" font-size="11" fill="rgba(71,85,105,0.4)">~/profile.sh — bash</text>
+
+  <!-- Right panel glow -->
+  <ellipse cx="800" cy="300" rx="300" ry="250" fill="rgba(37,99,235,0.015)" filter="url(#blur-mid)" />
+
+  <!-- GREETING -->
+  <g font-family="'Inter','-apple-system','SF Pro',sans-serif">
+    <text x="500" y="115" font-size="18" fill="rgba(71,85,105,0.6)" opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.5s" fill="freeze" />
+      👋 &#160;Hello, I'm
+    </text>
+
+    <!-- NAME -->
+    <text x="500" y="160" font-size="42" font-weight="700" fill="url(#accent-gradient)" opacity="0">
+      Malik Saad Ahmed
+      <animate attributeName="opacity" values="0;1" begin="1s" dur="0.8s" fill="freeze" />
+    </text>
+
+    <!-- Animated typing line -->
+    <text x="500" y="195" font-size="16" fill="rgba(71,85,105,0.6)" opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.5s" dur="0.5s" fill="freeze" />
+    </text>
+
+    <!-- Typing animation container -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.8s" dur="0.5s" fill="freeze" />
+      <text x="500" y="195" font-size="16" fill="#06B6D4" font-weight="500">
+        <tspan>AI Engineer</tspan>
+        <animate attributeName="opacity" values="0;1;1;0;0;1;1;0;0;1;1;0;0;1" keyTimes="0;0.05;0.18;0.23;0.28;0.33;0.46;0.51;0.56;0.61;0.74;0.79;0.84;0.89" dur="18s" repeatCount="indefinite" />
+        <tspan opacity="0">
+          Full Stack Developer
+          <animate attributeName="opacity" values="0;0;1;1;0;0;1;1;0;0;1;1;0" keyTimes="0;0.28;0.33;0.46;0.51;0.56;0.61;0.74;0.79;0.84;0.89;0.94;1" dur="18s" repeatCount="indefinite" />
+        </tspan>
+        <tspan opacity="0">
+          Open Source Contributor
+          <animate attributeName="opacity" values="0;0;1;1;0;0;1;1;0;0;1" keyTimes="0;0.56;0.61;0.74;0.79;0.84;0.89;0.94;0.96;0.98;1" dur="18s" repeatCount="indefinite" />
+        </tspan>
+        <tspan opacity="0">
+          DevOps Engineer
+          <animate attributeName="opacity" values="0;0;1;1;0;0;1" keyTimes="0;0.82;0.85;0.95;0.96;0.98;1" dur="18s" repeatCount="indefinite" />
+        </tspan>
+      </text>
+      <!-- Blinking cursor -->
+      <rect x="660" y="180" width="8" height="14" rx="2" fill="url(#typing-cursor)">
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate" values="0,0;60,0;120,0;170,0;0,0" dur="18s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+
+  <!-- ============ DETAILS SECTION ============ -->
+  <g font-family="'Inter','-apple-system','SF Pro',sans-serif">
+    <!-- Location -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.5s" dur="0.5s" fill="freeze" />
+      <text x="500" y="235" font-size="12" fill="rgba(71,85,105,0.5)" letter-spacing="1">LOCATION</text>
+      <text x="500" y="255" font-size="15" fill="#0F172A">📍 Islamabad, Pakistan</text>
+    </g>
+
+    <!-- Education -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="3s" dur="0.5s" fill="freeze" />
+      <text x="500" y="290" font-size="12" fill="rgba(71,85,105,0.5)" letter-spacing="1">EDUCATION</text>
+      <text x="500" y="310" font-size="15" fill="#0F172A">🎓 B.S. Artificial Intelligence — Air University</text>
+    </g>
+
+    <!-- Current Focus -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="3.5s" dur="0.5s" fill="freeze" />
+      <text x="500" y="345" font-size="12" fill="rgba(71,85,105,0.5)" letter-spacing="1">CURRENT FOCUS</text>
+      <text x="500" y="365" font-size="15" fill="#0F172A">⚡ AI Engineering &amp; DevOps Infrastructure</text>
+    </g>
+
+    <!-- Portfolio -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="4s" dur="0.5s" fill="freeze" />
+      <text x="500" y="400" font-size="12" fill="rgba(71,85,105,0.5)" letter-spacing="1">PORTFOLIO</text>
+      <text x="500" y="420" font-size="15" fill="#06B6D4">🌐 &lt;maliksaad.dev /&gt;</text>
+    </g>
+
+    <!-- Email -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="4.5s" dur="0.5s" fill="freeze" />
+      <text x="500" y="455" font-size="12" fill="rgba(71,85,105,0.5)" letter-spacing="1">EMAIL</text>
+      <text x="500" y="475" font-size="15" fill="#0F172A">✉️ m.saad.ahmed@email.com</text>
+    </g>
+  </g>
+
+  <!-- ============ SKILL PILLS ============ -->
+  <g opacity="0" font-family="'Inter','-apple-system','SF Pro',sans-serif">
+    <animate attributeName="opacity" values="0;1" begin="5s" dur="0.8s" fill="freeze" />
+    <text x="500" y="508" font-size="12" fill="rgba(71,85,105,0.5)" letter-spacing="1">SKILLS</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(500, 515)">
+      <g>
+        <rect x="0" y="0" width="70" height="26" rx="13" fill="url(#pill-grad)" stroke="url(#pill-border)" stroke-width="0.7" />
+        <text x="35" y="18" font-size="11" fill="#2563EB" text-anchor="middle" font-weight="500">Python</text>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.05;1,1" dur="3s" repeatCount="indefinite" />
+      </g>
+      <g transform="translate(78, 0)">
+        <rect x="0" y="0" width="80" height="26" rx="13" fill="url(#pill-grad)" stroke="url(#pill-border)" stroke-width="0.7" />
+        <text x="40" y="18" font-size="11" fill="#2563EB" text-anchor="middle" font-weight="500">Next.js</text>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.05;1,1" dur="3.2s" repeatCount="indefinite" />
+      </g>
+      <g transform="translate(166, 0)">
+        <rect x="0" y="0" width="60" height="26" rx="13" fill="url(#pill-grad)" stroke="url(#pill-border)" stroke-width="0.7" />
+        <text x="30" y="18" font-size="11" fill="#2563EB" text-anchor="middle" font-weight="500">Node.js</text>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.05;1,1" dur="2.8s" repeatCount="indefinite" />
+      </g>
+      <g transform="translate(234, 0)">
+        <rect x="0" y="0" width="80" height="26" rx="13" fill="url(#pill-grad)" stroke="url(#pill-border)" stroke-width="0.7" />
+        <text x="40" y="18" font-size="11" fill="#2563EB" text-anchor="middle" font-weight="500">TypeScript</text>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.05;1,1" dur="3.5s" repeatCount="indefinite" />
+      </g>
+      <g transform="translate(322, 0)">
+        <rect x="0" y="0" width="72" height="26" rx="13" fill="url(#pill-grad)" stroke="url(#pill-border)" stroke-width="0.7" />
+        <text x="36" y="18" font-size="11" fill="#2563EB" text-anchor="middle" font-weight="500">Tailwind</text>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.05;1,1" dur="3.1s" repeatCount="indefinite" />
+      </g>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(500, 548)">
+      <g>
+        <rect x="0" y="0" width="65" height="26" rx="13" fill="url(#pill-grad)" stroke="url(#pill-border)" stroke-width="0.7" />
+        <text x="32" y="18" font-size="11" fill="#10B981" text-anchor="middle" font-weight="500">Docker</text>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.05;1,1" dur="2.7s" repeatCount="indefinite" />
+      </g>
+      <g transform="translate(73, 0)">
+        <rect x="0" y="0" width="95" height="26" rx="13" fill="url(#pill-grad)" stroke="url(#pill-border)" stroke-width="0.7" />
+        <text x="47" y="18" font-size="11" fill="#10B981" text-anchor="middle" font-weight="500">PostgreSQL</text>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.05;1,1" dur="3.3s" repeatCount="indefinite" />
+      </g>
+      <g transform="translate(176, 0)">
+        <rect x="0" y="0" width="52" height="26" rx="13" fill="url(#pill-grad)" stroke="url(#pill-border)" stroke-width="0.7" />
+        <text x="26" y="18" font-size="11" fill="#10B981" text-anchor="middle" font-weight="500">AWS</text>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.05;1,1" dur="2.9s" repeatCount="indefinite" />
+      </g>
+      <g transform="translate(236, 0)">
+        <rect x="0" y="0" width="48" height="26" rx="13" fill="url(#pill-grad)" stroke="url(#pill-border)" stroke-width="0.7" />
+        <text x="24" y="18" font-size="11" fill="#10B981" text-anchor="middle" font-weight="500">Git</text>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.05;1,1" dur="3.4s" repeatCount="indefinite" />
+      </g>
+      <g transform="translate(292, 0)">
+        <rect x="0" y="0" width="60" height="26" rx="13" fill="url(#pill-grad)" stroke="url(#pill-border)" stroke-width="0.7" />
+        <text x="30" y="18" font-size="11" fill="#10B981" text-anchor="middle" font-weight="500">Figma</text>
+        <animateTransform attributeName="transform" type="scale" values="1,1;1.05,1.05;1,1" dur="3.6s" repeatCount="indefinite" />
+      </g>
+    </g>
+  </g>
+
+  <!-- ============ SOCIAL ICONS ============ -->
+  <g opacity="0" font-family="'Inter','-apple-system','SF Pro',sans-serif">
+    <animate attributeName="opacity" values="0;1" begin="6s" dur="0.8s" fill="freeze" />
+
+    <!-- GitHub -->
+    <g transform="translate(500, 480)" filter="url(#soft-glow)">
+      <rect x="0" y="0" width="32" height="32" rx="8" fill="rgba(37,99,235,0.06)" stroke="rgba(37,99,235,0.2)" stroke-width="0.7">
+        <animate attributeName="fill" values="rgba(37,99,235,0.06);rgba(37,99,235,0.12);rgba(37,99,235,0.06)" dur="3s" repeatCount="indefinite" />
+      </rect>
+      <!-- GitHub icon (simplified) -->
+      <path d="M10 6C7.79 6 6 7.79 6 10C6 11.86 7.28 13.41 9 13.86V15.5C9 15.78 9.22 16 9.5 16H10.5C10.78 16 11 15.78 11 15.5V14.6C11.33 14.67 11.67 14.7 12 14.7C12.33 14.7 12.67 14.67 13 14.6V15.5C13 15.78 13.22 16 13.5 16H14.5C14.78 16 15 15.78 15 15.5V13.86C16.72 13.41 18 11.86 18 10C18 7.79 16.21 6 14 6H10ZM12 8C13.1 8 14 8.9 14 10C14 11.1 13.1 12 12 12C10.9 12 10 11.1 10 10C10 8.9 10.9 8 12 8Z" fill="#2563EB" transform="translate(6,6)" />
+    </g>
+
+    <!-- LinkedIn -->
+    <g transform="translate(545, 480)" filter="url(#soft-glow)">
+      <rect x="0" y="0" width="32" height="32" rx="8" fill="rgba(6,182,212,0.06)" stroke="rgba(6,182,212,0.2)" stroke-width="0.7">
+        <animate attributeName="fill" values="rgba(6,182,212,0.06);rgba(6,182,212,0.12);rgba(6,182,212,0.06)" dur="3.5s" repeatCount="indefinite" />
+      </rect>
+      <!-- LinkedIn icon -->
+      <rect x="8" y="12" width="2" height="6" rx="0.5" fill="#06B6D4" />
+      <circle cx="9" cy="9.5" r="1.5" fill="#06B6D4" />
+      <path d="M12 12H14V13.5C14.33 12.85 15.08 12.5 16 12.5C17.66 12.5 18 13.79 18 15.5V18H16V16C16 15.45 15.86 15 15 15C14.14 15 14 15.45 14 16V18H12V12Z" fill="#06B6D4" />
+    </g>
+
+    <!-- Twitter/X -->
+    <g transform="translate(590, 480)" filter="url(#soft-glow)">
+      <rect x="0" y="0" width="32" height="32" rx="8" fill="rgba(16,185,129,0.06)" stroke="rgba(16,185,129,0.2)" stroke-width="0.7">
+        <animate attributeName="fill" values="rgba(16,185,129,0.06);rgba(16,185,129,0.12);rgba(16,185,129,0.06)" dur="4s" repeatCount="indefinite" />
+      </rect>
+      <!-- X/Twitter icon -->
+      <path d="M7.5 7L12.5 13L7 14.5L8 15.5L13 14L14 18.5L15 18.5L14 14L18 18L19 17L15 13L19 7.5L18 7L14 12L13 7.5L12 7.5L13 13L8 7.5L7.5 7Z" fill="#10B981" transform="translate(5,4)" />
+    </g>
+
+    <!-- Portfolio -->
+    <g transform="translate(635, 480)" filter="url(#soft-glow)">
+      <rect x="0" y="0" width="32" height="32" rx="8" fill="rgba(37,99,235,0.06)" stroke="rgba(37,99,235,0.2)" stroke-width="0.7">
+        <animate attributeName="fill" values="rgba(37,99,235,0.06);rgba(37,99,235,0.12);rgba(37,99,235,0.06)" dur="2.5s" repeatCount="indefinite" />
+      </rect>
+      <!-- Portfolio/link icon -->
+      <path d="M8 8H16C16.55 8 17 8.45 17 9V15C17 15.55 16.55 16 16 16H8C7.45 16 7 15.55 7 15V9C7 8.45 7.45 8 8 8ZM9 10V14H15V10H9Z" fill="#2563EB" transform="translate(5.5,5.5)" />
+    </g>
+  </g>
+
+  <!-- ============ PARTICLES ============ -->
+  <g>
+    <circle cx="100" cy="100" r="1.5" fill="#06B6D4" filter="url(#particle-glow)" opacity="0.4">
+      <animate attributeName="cx" values="100;110;95;100" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="100;90;105;100" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.4;0.15;0.4" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="300" cy="500" r="1" fill="#2563EB" filter="url(#particle-glow)" opacity="0.35">
+      <animate attributeName="cx" values="300;310;295;300" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="500;490;505;500" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.35;0.08;0.35" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="900" cy="150" r="1.5" fill="#10B981" filter="url(#particle-glow)" opacity="0.3">
+      <animate attributeName="cx" values="900;910;895;900" dur="11s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="150;140;155;150" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;0.08;0.3" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1050" cy="500" r="1.2" fill="#06B6D4" filter="url(#particle-glow)" opacity="0.35">
+      <animate attributeName="cx" values="1050;1060;1045;1050" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="500;490;510;500" dur="11s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.35;0.1;0.35" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="700" cy="80" r="1" fill="#2563EB" filter="url(#particle-glow)" opacity="0.2">
+      <animate attributeName="cx" values="700;708;695;700" dur="13s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="80;75;88;80" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;0.06;0.2" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="200" cy="350" r="0.8" fill="#10B981" filter="url(#particle-glow)" opacity="0.3">
+      <animate attributeName="cx" values="200;208;195;200" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="350;342;355;350" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;0.08;0.3" dur="4.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1100" cy="300" r="1.3" fill="#06B6D4" filter="url(#particle-glow)" opacity="0.25">
+      <animate attributeName="cx" values="1100;1110;1095;1100" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="300;290;310;300" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.25;0.06;0.25" dur="5.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Noise overlay -->
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="transparent" filter="url(#noise)" pointer-events="none" />
+
+  <!-- Scanline sweep -->
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="rgba(37,99,235,0.01)" pointer-events="none">
+    <animate attributeName="y" values="-610;610" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="height" values="60;60" dur="5s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Border shimmer sweep -->
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="none" stroke="rgba(15,23,42,0.03)" stroke-width="0.5" opacity="0">
+    <animate attributeName="opacity" values="0;0.2;0" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+</svg>
