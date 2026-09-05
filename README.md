@@ -1,14 +1,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="light.svg">
-  <img src="dark.svg" alt="Malik Saad Ahmed — AI Engineer | DevOps Engineer | Data Scientist" width="100%">
+  <img src="dark.svg" alt="Malik Saad Ahmed — Cloud & AI Automation Engineer" width="100%">
 </picture>
 
 <br>
 
 <p align="center">
   <a href="https://maliksaad.dev"><img src="https://img.shields.io/badge/Portfolio-%2306B6D4.svg?&style=for-the-badge&logo=About.me&logoColor=white" /></a>&nbsp;
-  <a href="mailto:m.saad.ahmed@email.com"><img src="https://img.shields.io/badge/Email-%230F172A.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
+  <a href="mailto:awansaad6927@gmail.com"><img src="https://img.shields.io/badge/Email-%230F172A.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
   <a href="https://linkedin.com/in/maliksaadahmed"><img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
   <a href="https://x.com/maliksaad__"><img src="https://img.shields.io/badge/X-%23000000.svg?&style=for-the-badge&logo=x&logoColor=white" /></a>&nbsp;
   <a href="https://github.com/maliksaad-ahmed"><img src="https://img.shields.io/badge/GitHub-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -20,59 +20,77 @@
 
 ## 👨‍💻 About Me
 
-I'm an **AI/DevOps engineer** based in Islamabad, Pakistan, and a student of **Artificial Intelligence at Air University**. I work at the intersection of machine learning, data engineering, and DevOps — building AI-driven systems and the infrastructure that keeps them running reliably in production.
+I'm a **Cloud & AI Automation Engineer** based in Islamabad, Pakistan, and a student of **Artificial Intelligence at Air University**. I ship and own production systems end-to-end — from AWS/Azure infrastructure and CI/CD through to the LLM/agentic layer (LangChain, LangGraph, RAG, n8n, Zapier).
 
-I build AI and infrastructure — for fun and for production.
+I've delivered **90+ automation, DevOps, and AI projects for 55+ clients** as a freelance/contract engineer — including Keos, ZWO ASTRO, Wiz.Link Ltd., DorothyAI, and CoachAI — alongside internships in applied AI and instructor experience teaching cloud and DevOps fundamentals. Comfortable being the one on call when something breaks, and equally comfortable sitting with a non-technical client to explain what was built and why.
 
 ---
 
 ## 💼 Experience
 
+### Freelance Cloud, DevOps & AI Automation Engineer — Fiverr & Direct Clients *(Remote)*
+**June 2024 – Present**
+- Delivered 90+ projects for 55+ clients spanning cloud infrastructure, CI/CD automation, Kubernetes orchestration, and AI/LLM automation
+- Designed and shipped n8n and Zapier workflow automations integrating REST APIs and third-party services (CRM, Slack, Telegram, voice agents)
+- Owned production deployments across AWS, Azure, and GCP — infrastructure design, database migration, cost optimization, and incident response
+
+### Artificial Intelligence Intern — NASTP *(Rawalpindi)*
+**July 2026 – Present**
+- Selected among the top 2 interns out of 3,500+ applicants for the NASTP AI internship, contributing to aerospace AI R&D
+- Built a Course Recommendation RAG system using FastAPI, Qdrant, FastEmbed, and Mistral/Groq, with a React front end
+
 ### Data Engineer — Obrix Labs *(Pakistan)*
 **June 2026 – Present**
 
-### DevOps Instructor — IT TechFusion Solutions *(Multan)*
+### Junior DevOps / Infrastructure Engineer — SoftexSolutions *(USA, Remote)*
+**March 2026 – Present**
+- Designed and implemented CI/CD pipelines with GitHub Actions; managed multi-environment VPS infrastructure (Contabo, Hetzner) with automated database migration and health checks
+- Implemented blue-green, zero-downtime deployment strategies; configured reverse proxies, load balancing, and SSL certificate management
+
+### DevOps Instructor — IT TechFusion Solutions *(Remote)*
 **May 2026 – Present**
-Teaching a DevOps course covering Linux, Git/GitHub, cloud computing fundamentals, web technologies, databases, and deployment to remote Oracle servers via GitHub.
+Teaching DevOps fundamentals — Linux, Git/GitHub, cloud computing, YAML, GitHub Actions CI/CD, Kubernetes, AWS — including hands-on projects deploying applications to remote cloud servers.
 
-### DevOps Engineer — Wizlink (Wiz.Link Ltd) *(London, UK | Remote)*
-**April 2026**
-- Rebuilt and optimized CI/CD pipelines for Laravel backend and Next.js frontend deployments
-- Cleaned up and reconfigured EC2 infrastructure; managed database migrations via Amazon RDS with minimal downtime
-- Resolved recurring authentication, file permission, and environment variable issues in Laravel environments
-
-### DevOps Engineer — Softex Solution *(Kansas, US | Remote)*
-**March 2026**
-- Implemented blue-green, zero-downtime deployments; built CI/CD pipelines from scratch with GitHub Actions
-- Containerized frontend services with Docker; resolved cross-service connectivity and CORS issues
-- Managed PostgreSQL/MongoDB (replication, ETL migrations), automated backups via cron, and set up real-time monitoring with Netdata
-
-### Data Scientist Intern — AgileForce *(United Kingdom | Remote)*
+### Data Scientist Intern — AgileForce *(United Kingdom, Remote)*
 **July 2025 – Sept 2025**
-- Researched NLP and retrieval-augmented generation; built a vector database migration and ingestion tool — [vectormigration.com](https://vectormigration.com) — connecting Pinecone, ChromaDB, and Qdrant
+- Engineered a bi-directional vector database migration utility supporting Pinecone, ChromaDB, and Qdrant — deployed at [vectormigration.com](https://vectormigration.com)
+- Researched NLP and retrieval-augmented generation, building the retrieval and ingestion pipelines behind it
 
-### Data Scientist Intern — 128 Technologies *(Islamabad)*
-**July 2025 – Aug 2025**
-- Integrated computer vision (YOLOv8) into UAV drones for real-time detection; built full-stack tooling with the Flet framework
+### DevOps Engineer — Wiz.Link Ltd *(UK, Remote)*
+- Migrated infrastructure and MySQL databases across AWS EC2/RDS; built production CI/CD pipelines for Laravel and Next.js applications, cutting deployment downtime by 80%
 
-### AI Engineer Intern — iOPTIME Pvt Ltd *(Islamabad)*
+### Artificial Intelligence Intern — iOPTIME Pvt Ltd *(Islamabad)*
 **July 2024 – Aug 2024**
-- Built ML models and neural networks (CNN, RNN, LSTM, GRU) from scratch with NumPy and PyTorch
-- Implemented a Transformer architecture from scratch; fine-tuned LLMs (GPT-2, BERT) for text generation and classification
+- Built and fine-tuned LSTM, GRU, CNN, GPT-2, and BERT models in PyTorch for text classification and generation, achieving 88% accuracy
+- Implemented a Transformer architecture from scratch; fine-tuned LLMs on domain-specific datasets
 
 ---
 
 ## 🚀 Highlighted Projects
 
+### Cleros AI — Litigation Intelligence Platform
+Next.js, FastAPI, PostgreSQL, Qdrant, Docker Swarm, Traefik. Agentic legal reasoning and document intelligence platform with a multi-LLM jury-simulation engine; deployed with persistent storage, SSL/TLS, and lazy-loaded containerized embedding models. Live at [cleros.ai](https://cleros.ai).
+
+### Vector Database Migration Tool
+Automated pipeline moving embeddings, metadata, and collections between Pinecone, ChromaDB, and Qdrant via their APIs with zero-downtime data integrity. Live at [vectormigration.com](https://vectormigration.com).
+
 ### RAG-Based Personal Counsellor Chatbot (TEDx Talks)
-Built with LangChain, Pinecone, and Flask; dataset scraped from TED Talk transcripts. Integrated DeepSeek, Grok, LLaMA, Mistral, and Gemma 2 as swappable LLM backends. Evaluated with TextStat and ROUGE metrics.
+Built with LangChain, Pinecone, and Flask; dataset scraped from TED Talk transcripts. Integrated multiple swappable LLM backends (DeepSeek, Grok, LLaMA, Mistral, Gemma 2); evaluated with TextStat and ROUGE metrics.
+
+### GitOps CI/CD with ArgoCD & Kubernetes
+Deployed a full-stack client application using GitOps principles, with ArgoCD on a Kubernetes cluster for automated, declarative deployments.
+
+### AWS Microservice CI/CD Pipeline
+End-to-end CI/CD pipeline with infrastructure-as-code (CDKTF); containerized microservices deployed to AWS ECS with automated testing gates.
+
+### Automation Suite — Lead Gen, Feedback & Voice Agents
+n8n lead-and-negotiation automation for a dealership client; a Zapier pipeline logging customer feedback to Airtable with Slack alerts; a real-time Telegram voice-transcription bot; and a Retell AI voice agent wired into an automation backend for live calls.
 
 ### Power BI Report — Programming Habits of Computing Students
-[View Report](https://github.com/maliksaad-ahmed)
 Ran a 1.5-month survey across universities (748 participants) on student coding behaviors, ethics, and stress. Built an interactive Power BI dashboard backed by REST APIs for automated data updates.
 
 ### Agile Story Point Estimation via Unsupervised Learning
-Clustering system (KMeans, DBSCAN, Hierarchical) to auto-assign story points from Plane and GitHub issue data.
+Clustering system (K-Means, DBSCAN, Hierarchical) to auto-assign story points from Plane and GitHub issue data.
 
 ---
 
@@ -80,20 +98,22 @@ Clustering system (KMeans, DBSCAN, Hierarchical) to auto-assign story points fro
 
 | Category | Tools & Technologies |
 |----------|---------------------|
-| **Languages** | Python, SQL, C++, C |
-| **DevOps & Cloud** | Docker, CI/CD (GitHub Actions), AWS (EC2, RDS), GCP, Netdata |
-| **AI/ML Frameworks** | PyTorch, scikit-learn, Transformers, LangChain, HuggingFace |
-| **Databases** | MySQL, PostgreSQL, MongoDB, SQLite, Firebase, Pinecone |
-| **Visualization** | Power BI, Google Looker Studio, Matplotlib |
-| **Version Control** | Git, GitHub |
-| **Other Tools** | OpenRefine, Roboflow, Excel |
+| **Languages** | Python, SQL, C++, C, JavaScript, HTML/CSS |
+| **Cloud & DevOps** | AWS (EC2, ECS, ECR, RDS, S3, IAM, VPC, CloudWatch), Azure, GCP, Docker, Kubernetes, ArgoCD, GitOps, GitHub Actions, GitLab CI, Terraform, CDKTF, Ansible, Contabo/Hetzner VPS, nginx, SSL/TLS |
+| **AI / Automation** | LangChain, LangGraph, RAG, Multi-Agent Systems, n8n, Zapier, REST API Integrations, Webhooks, Prompt Engineering, LLM Fine-Tuning, Model Deployment |
+| **ML/DL Stack** | PyTorch, TensorFlow, Keras, Scikit-learn, Transformers, Hugging Face, OpenCV, NLTK |
+| **Frameworks** | FastAPI, Flask, ReactJS, Next.js, Streamlit |
+| **Databases** | MySQL, PostgreSQL, MongoDB, Redis, SQLite, Firebase, Pinecone, ChromaDB, Qdrant, Solr, ZooKeeper |
+| **Monitoring & Visualization** | Grafana, Prometheus, CloudWatch, Power BI, Google Looker Studio, Matplotlib |
+| **Version Control** | Git, GitHub, GitLab |
+| **Other Tools** | OpenRefine, Roboflow, Excel, Linux (Ubuntu/CentOS), Bash |
 
 ---
 
 ## 📄 Publications
 
 - [Text Generation using LSTMs and GPT-2](https://github.com/maliksaad-ahmed)
-- [Decision Tree Classifier Using Numpy and scikit-learn](https://github.com/maliksaad-ahmed)
+- [Decision Tree Classifier Using NumPy and Scikit-learn](https://github.com/maliksaad-ahmed)
 
 ---
 
@@ -106,16 +126,18 @@ Clustering system (KMeans, DBSCAN, Hierarchical) to auto-assign story points fro
   <img src="https://img.shields.io/badge/🥉_3rd_Place-Init_Quiz_2023-7C3AED?style=for-the-badge" />
 </p>
 
-- **Co-Lead**, Tech Team — Air University Data & AI Society
+- **Co-Lead**, Tech Team — Air University Data & AI Society (AUDAS)
 - **Director Liaison** — AirTech Documentation Team
 - **Documentation & Proposal Writer** — Microsoft Learn Student Ambassadors, Air University
 - Conducted workshops on GitHub and MS Excel; mentored student groups on DBMS projects (Qt/C++)
+
+**Certifications (DataCamp):** Python Data Fundamentals · Python Data Associate · Supervised Learning with scikit-learn · Power BI Fundamentals · Git & GitHub Fundamentals
 
 ---
 
 ## 🎓 Education
 
-**Air University** — B.S. Artificial Intelligence *(Sept 2023 – Sept 2027)*
+**Air University** — B.S. Artificial Intelligence *(Sept 2023 – Sept 2027, expected)*
 
 ---
 
