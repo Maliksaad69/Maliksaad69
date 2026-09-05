@@ -22,17 +22,11 @@
 
 I'm a **Cloud & AI Automation Engineer** based in Islamabad, Pakistan, and a student of **Artificial Intelligence at Air University**. I ship and own production systems end-to-end — from AWS/Azure infrastructure and CI/CD through to the LLM/agentic layer (LangChain, LangGraph, RAG, n8n, Zapier).
 
-I've delivered **90+ automation, DevOps, and AI projects for 55+ clients** as a freelance/contract engineer — including Keos, ZWO ASTRO, Wiz.Link Ltd., DorothyAI, and CoachAI — alongside internships in applied AI and instructor experience teaching cloud and DevOps fundamentals. Comfortable being the one on call when something breaks, and equally comfortable sitting with a non-technical client to explain what was built and why.
 
 ---
 
 ## 💼 Experience
 
-### Freelance Cloud, DevOps & AI Automation Engineer — Fiverr & Direct Clients *(Remote)*
-**June 2024 – Present**
-- Delivered 90+ projects for 55+ clients spanning cloud infrastructure, CI/CD automation, Kubernetes orchestration, and AI/LLM automation
-- Designed and shipped n8n and Zapier workflow automations integrating REST APIs and third-party services (CRM, Slack, Telegram, voice agents)
-- Owned production deployments across AWS, Azure, and GCP — infrastructure design, database migration, cost optimization, and incident response
 
 ### Artificial Intelligence Intern — NASTP *(Rawalpindi)*
 **July 2026 – Present**
