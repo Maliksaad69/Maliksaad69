@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="light.svg">
-  <img src="dark.svg" alt="Malik Saad Ahmed — Cloud & AI Automation Engineer" width="100%">
+  <img src="dark.svg" alt="Malik Saad Ahmed — Cloud & AI Engineer" width="100%">
 </picture>
 
 <br>
@@ -20,7 +20,7 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Cloud & AI Automation Engineer** based in Islamabad, Pakistan, and a student of **Artificial Intelligence at Air University**. I ship and own production systems end-to-end — from AWS/Azure infrastructure and CI/CD through to the LLM/agentic layer (LangChain, LangGraph, RAG, n8n, Zapier).
+I'm a **Cloud & AI Engineer** based in Islamabad, Pakistan, and a student of **Artificial Intelligence at Air University**. I ship and own production systems end-to-end — from AWS/Azure infrastructure and CI/CD through to the LLM/agentic layer (LangChain, LangGraph, RAG, n8n, Zapier).
 
 
 ---
