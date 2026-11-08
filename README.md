@@ -1,142 +1,115 @@
+<div align="center">
+
+<table width="100%">
+<tr>
+<td width="64%" valign="middle">
+<p><sub>RECRUITER SIGNAL BRIEF · maliksaad69</sub></p>
+<h1>Malik Saad Ahmed</h1>
+<h2>Frontend or full-stack engineer</h2>
+<p>I work on AI, Web and DevOps for fun</p>
+<p><strong>● Building and sharing work in public</strong></p>
+<p><sub>Building at GDSC Air University</sub></p>
+<p><a href="https://github.com/maliksaad69">GitHub</a></p>
+</td>
+<td width="36%" valign="middle" align="center">
+<img src="https://avatars.githubusercontent.com/u/301863173?u=863f2bb3acff4f88e14856ba826e8c26dcc47388&amp;v=4" width="180" alt="Malik Saad Ahmed GitHub avatar" />
+</td>
+</tr>
+</table>
+</div>
+
+<h2>What teams can evaluate quickly</h2>
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><h3>Role fit</h3><p>Frontend or full-stack engineer · Python · JavaScript · C++</p></td>
+<td width="33%" valign="top"><h3>Public proof</h3><p>36 repositories · 0 stars</p></td>
+<td width="33%" valign="top"><h3>Momentum</h3><p>616 contributions · 95 active days</p></td>
+</tr>
+</table>
+
+<p><sub>I work on AI, Web and DevOps for fun</sub></p>
+
+<h2>Proof at a glance</h2>
+
+<table width="100%">
+<tr>
+<td width="25%" align="center"><strong>36</strong><br /><sub>Repositories</sub></td>
+<td width="25%" align="center"><strong>0</strong><br /><sub>Stars</sub></td>
+<td width="25%" align="center"><strong>616</strong><br /><sub>Contributions</sub></td>
+<td width="25%" align="center"><strong>5</strong><br /><sub>Followers</sub></td>
+</tr>
+</table>
+
+<p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light.svg">
-  <img src="dark.svg" alt="Malik Saad Ahmed — Cloud & AI Engineer" width="100%">
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=maliksaad69&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F301863173%3Fu%3D863f2bb3acff4f88e14856ba826e8c26dcc47388%26v%3D4&v=recruiter-stats-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stats?username=maliksaad69&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F301863173%3Fu%3D863f2bb3acff4f88e14856ba826e8c26dcc47388%26v%3D4&v=recruiter-stats-1&mode=dark" width="100%" alt="Malik Saad Ahmed GitHub proof metrics" />
 </picture>
-
-<br>
-
-<p align="center">
-  <a href="https://maliksaad.dev"><img src="https://img.shields.io/badge/Portfolio-%2306B6D4.svg?&style=for-the-badge&logo=About.me&logoColor=white" /></a>&nbsp;
-  <a href="mailto:awansaad6927@gmail.com"><img src="https://img.shields.io/badge/Email-%230F172A.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
-  <a href="https://linkedin.com/in/maliksaadahmed"><img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
-  <a href="https://x.com/maliksaad__"><img src="https://img.shields.io/badge/X-%23000000.svg?&style=for-the-badge&logo=x&logoColor=white" /></a>&nbsp;
-  <a href="https://github.com/maliksaad-ahmed"><img src="https://img.shields.io/badge/GitHub-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-<br>
+<h2>Selected work</h2>
 
----
+<table width="100%">
+<tr>
+<td width="58%" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=maliksaad69&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F301863173%3Fu%3D863f2bb3acff4f88e14856ba826e8c26dcc47388%26v%3D4&repos=maliksaad69%2F36-Advanced-RAG-Techniques%2Cmaliksaad69%2FPresty-motors%2Cmaliksaad69%2FLone-Alpha-Badge%2Cmaliksaad69%2FPortfolio&v=recruiter-projects-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/projects?username=maliksaad69&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F301863173%3Fu%3D863f2bb3acff4f88e14856ba826e8c26dcc47388%26v%3D4&repos=maliksaad69%2F36-Advanced-RAG-Techniques%2Cmaliksaad69%2FPresty-motors%2Cmaliksaad69%2FLone-Alpha-Badge%2Cmaliksaad69%2FPortfolio&v=recruiter-projects-1&mode=dark" width="100%" alt="Malik Saad Ahmed selected projects" />
+</picture>
+</td>
+<td width="42%" valign="top">
+<h3><a href="https://github.com/Maliksaad69/36-Advanced-RAG-Techniques">36-Advanced-RAG-Techniques</a></h3>
+<p>A selected public project.</p>
+<p><sub>⭐ 0 · 🍴 0</sub></p>
+<p><a href="https://github.com/Maliksaad69/36-Advanced-RAG-Techniques">Read the repository →</a></p>
+</td>
+</tr>
+</table>
 
-## 👨‍💻 About Me
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><h3><a href="https://github.com/Maliksaad69/Presty-motors">Presty-motors</a></h3><p>A selected public project.</p><p><sub>TypeScript · ⭐ 0</sub></p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/Maliksaad69/Lone-Alpha-Badge">Lone-Alpha-Badge</a></h3><p>A selected public project.</p><p><sub>TypeScript · ⭐ 0</sub></p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/Maliksaad69/Portfolio">Portfolio</a></h3><p>A selected public project.</p><p><sub>TypeScript · ⭐ 0</sub></p></td>
+</tr>
+</table>
 
-I'm a **Cloud & AI Engineer** based in Islamabad, Pakistan, and a student of **Artificial Intelligence at Air University**. I ship and own production systems end-to-end — from AWS/Azure infrastructure and CI/CD through to the LLM/agentic layer (LangChain, LangGraph, RAG, n8n, Zapier).
-
-
----
-
-## 💼 Experience
-
-
-### Artificial Intelligence Intern — NASTP *(Rawalpindi)*
-**July 2026 – Present**
-- Selected among the top 2 interns out of 3,500+ applicants for the NASTP AI internship, contributing to aerospace AI R&D
-- Built a Course Recommendation RAG system using FastAPI, Qdrant, FastEmbed, and Mistral/Groq, with a React front end
-
-### Data Engineer — Obrix Labs *(Pakistan)*
-**June 2026 – Present**
-
-### Junior DevOps / Infrastructure Engineer — SoftexSolutions *(USA, Remote)*
-**March 2026 – Present**
-- Designed and implemented CI/CD pipelines with GitHub Actions; managed multi-environment VPS infrastructure (Contabo, Hetzner) with automated database migration and health checks
-- Implemented blue-green, zero-downtime deployment strategies; configured reverse proxies, load balancing, and SSL certificate management
-
-### DevOps Instructor — IT TechFusion Solutions *(Remote)*
-**May 2026 – Present**
-Teaching DevOps fundamentals — Linux, Git/GitHub, cloud computing, YAML, GitHub Actions CI/CD, Kubernetes, AWS — including hands-on projects deploying applications to remote cloud servers.
-
-### Data Scientist Intern — AgileForce *(United Kingdom, Remote)*
-**July 2025 – Sept 2025**
-- Engineered a bi-directional vector database migration utility supporting Pinecone, ChromaDB, and Qdrant — deployed at [vectormigration.com](https://vectormigration.com)
-- Researched NLP and retrieval-augmented generation, building the retrieval and ingestion pipelines behind it
-
-### DevOps Engineer — Wiz.Link Ltd *(UK, Remote)*
-- Migrated infrastructure and MySQL databases across AWS EC2/RDS; built production CI/CD pipelines for Laravel and Next.js applications, cutting deployment downtime by 80%
-
-### Artificial Intelligence Intern — iOPTIME Pvt Ltd *(Islamabad)*
-**July 2024 – Aug 2024**
-- Built and fine-tuned LSTM, GRU, CNN, GPT-2, and BERT models in PyTorch for text classification and generation, achieving 88% accuracy
-- Implemented a Transformer architecture from scratch; fine-tuned LLMs on domain-specific datasets
-
----
-
-## 🚀 Highlighted Projects
-
-### Cleros AI — Litigation Intelligence Platform
-Next.js, FastAPI, PostgreSQL, Qdrant, Docker Swarm, Traefik. Agentic legal reasoning and document intelligence platform with a multi-LLM jury-simulation engine; deployed with persistent storage, SSL/TLS, and lazy-loaded containerized embedding models. Live at [cleros.ai](https://cleros.ai).
-
-### Vector Database Migration Tool
-Automated pipeline moving embeddings, metadata, and collections between Pinecone, ChromaDB, and Qdrant via their APIs with zero-downtime data integrity. Live at [vectormigration.com](https://vectormigration.com).
-
-### RAG-Based Personal Counsellor Chatbot (TEDx Talks)
-Built with LangChain, Pinecone, and Flask; dataset scraped from TED Talk transcripts. Integrated multiple swappable LLM backends (DeepSeek, Grok, LLaMA, Mistral, Gemma 2); evaluated with TextStat and ROUGE metrics.
-
-### GitOps CI/CD with ArgoCD & Kubernetes
-Deployed a full-stack client application using GitOps principles, with ArgoCD on a Kubernetes cluster for automated, declarative deployments.
-
-### AWS Microservice CI/CD Pipeline
-End-to-end CI/CD pipeline with infrastructure-as-code (CDKTF); containerized microservices deployed to AWS ECS with automated testing gates.
-
-### Automation Suite — Lead Gen, Feedback & Voice Agents
-n8n lead-and-negotiation automation for a dealership client; a Zapier pipeline logging customer feedback to Airtable with Slack alerts; a real-time Telegram voice-transcription bot; and a Retell AI voice agent wired into an automation backend for live calls.
-
-### Power BI Report — Programming Habits of Computing Students
-Ran a 1.5-month survey across universities (748 participants) on student coding behaviors, ethics, and stress. Built an interactive Power BI dashboard backed by REST APIs for automated data updates.
-
-### Agile Story Point Estimation via Unsupervised Learning
-Clustering system (K-Means, DBSCAN, Hierarchical) to auto-assign story points from Plane and GitHub issue data.
-
----
-
-## 🛠️ Core Skills
-
-| Category | Tools & Technologies |
-|----------|---------------------|
-| **Languages** | Python, SQL, C++, C, JavaScript, HTML/CSS |
-| **Cloud & DevOps** | AWS (EC2, ECS, ECR, RDS, S3, IAM, VPC, CloudWatch), Azure, GCP, Docker, Kubernetes, ArgoCD, GitOps, GitHub Actions, GitLab CI, Terraform, CDKTF, Ansible, Contabo/Hetzner VPS, nginx, SSL/TLS |
-| **AI / Automation** | LangChain, LangGraph, RAG, Multi-Agent Systems, n8n, Zapier, REST API Integrations, Webhooks, Prompt Engineering, LLM Fine-Tuning, Model Deployment |
-| **ML/DL Stack** | PyTorch, TensorFlow, Keras, Scikit-learn, Transformers, Hugging Face, OpenCV, NLTK |
-| **Frameworks** | FastAPI, Flask, ReactJS, Next.js, Streamlit |
-| **Databases** | MySQL, PostgreSQL, MongoDB, Redis, SQLite, Firebase, Pinecone, ChromaDB, Qdrant, Solr, ZooKeeper |
-| **Monitoring & Visualization** | Grafana, Prometheus, CloudWatch, Power BI, Google Looker Studio, Matplotlib |
-| **Version Control** | Git, GitHub, GitLab |
-| **Other Tools** | OpenRefine, Roboflow, Excel, Linux (Ubuntu/CentOS), Bash |
-
----
-
-## 📄 Publications
-
-- [Text Generation using LSTMs and GPT-2](https://github.com/maliksaad-ahmed)
-- [Decision Tree Classifier Using NumPy and Scikit-learn](https://github.com/maliksaad-ahmed)
-
----
-
-## 🏆 Achievements & Leadership
+<h2>Technical toolkit</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🥇_1st_Place-AirTech_AIQ_Quiz_2025-10B981?style=for-the-badge" />&nbsp;
-  <img src="https://img.shields.io/badge/🥇_1st_Place-AirTech_AI_DS_Hackathon_2025-10B981?style=for-the-badge" />&nbsp;
-  <img src="https://img.shields.io/badge/🥈_2nd_Place-Air_VizX_2025-06B6D4?style=for-the-badge" />&nbsp;
-  <img src="https://img.shields.io/badge/🥉_3rd_Place-Init_Quiz_2023-7C3AED?style=for-the-badge" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=maliksaad69&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F301863173%3Fu%3D863f2bb3acff4f88e14856ba826e8c26dcc47388%26v%3D4&v=recruiter-stack-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stack?username=maliksaad69&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F301863173%3Fu%3D863f2bb3acff4f88e14856ba826e8c26dcc47388%26v%3D4&v=recruiter-stack-1&mode=dark" width="100%" alt="Malik Saad Ahmed technology stack" />
+</picture>
 </p>
 
-- **Co-Lead**, Tech Team — Air University Data & AI Society (AUDAS)
-- **Director Liaison** — AirTech Documentation Team
-- **Documentation & Proposal Writer** — Microsoft Learn Student Ambassadors, Air University
-- Conducted workshops on GitHub and MS Excel; mentored student groups on DBMS projects (Qt/C++)
+<table width="100%">
+<tr>
+<td width="20%" align="center"><strong>Python</strong><br /><sub>64% of public code</sub></td>
+<td width="20%" align="center"><strong>JavaScript</strong><br /><sub>23% of public code</sub></td>
+<td width="20%" align="center"><strong>C++</strong><br /><sub>4% of public code</sub></td>
+<td width="20%" align="center"><strong>TypeScript</strong><br /><sub>3% of public code</sub></td>
+<td width="20%" align="center"><strong>Jupyter Notebook</strong><br /><sub>2% of public code</sub></td>
+</tr>
+</table>
 
-**Certifications (DataCamp):** Python Data Fundamentals · Python Data Associate · Supervised Learning with scikit-learn · Power BI Fundamentals · Git & GitHub Fundamentals
-
----
-
-## 🎓 Education
-
-**Air University** — B.S. Artificial Intelligence *(Sept 2023 – Sept 2027, expected)*
-
----
+<h2>Consistency signal</h2>
 
 <p align="center">
-  <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fmaliksaad-ahmed&labelColor=%230F172A&countColor=%232563EB" />
-  <br>
-  <sub>⚡ Building the future at the intersection of AI and infrastructure</sub>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=maliksaad69&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F301863173%3Fu%3D863f2bb3acff4f88e14856ba826e8c26dcc47388%26v%3D4&v=recruiter-heatmap-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/heatmap?username=maliksaad69&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F301863173%3Fu%3D863f2bb3acff4f88e14856ba826e8c26dcc47388%26v%3D4&v=recruiter-heatmap-1&mode=dark" width="100%" alt="Malik Saad Ahmed contribution activity" />
+</picture>
 </p>
+
+<hr />
+
+<table width="100%">
+<tr>
+<td width="62%" valign="middle"><h2>Let’s talk about the next build</h2><p>Open to thoughtful teams, ambitious products, and useful engineering work.</p></td>
+<td width="38%" valign="middle" align="right"><a href="https://github.com/maliksaad69">GitHub</a></td>
+</tr>
+</table>
+
+<p align="center"><sub>Malik Saad Ahmed · recruiter-ready profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
